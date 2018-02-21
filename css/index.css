@@ -1,0 +1,40 @@
+header {
+  margin: 10px;
+  border: 1px solid;
+}
+
+header img {
+  width: 100px;
+  margin-left: auto;
+  display: inline;
+}
+header h1 {
+  margin-left: 10px;
+  margin-right: auto;
+  display: inline;
+}
+
+.TitleLeft {
+
+}
+
+.TitleLeft h2 {
+
+}
+
+.TitleLeft p {
+
+}
+
+
+.TitleRight {
+
+}
+
+.TitleRight h2 {
+
+}
+
+.TitleRight p {
+
+}
