@@ -1,0 +1,14 @@
+header {
+  display: block;
+  margin: 10px;
+}
+
+.navbar-brand img {
+  width: 30px;
+  display: inline;
+}
+header h1 {
+  margin-left: 10px;
+  margin-right: auto;
+  display: inline;
+}
