@@ -3,11 +3,11 @@
 }
 
 .TitleLeft h2 {
-
+  text-align: center;
 }
 
 .TitleLeft p {
-
+  text-align: center;
 }
 
 
@@ -16,9 +16,13 @@
 }
 
 .TitleRight h2 {
-
+  text-align: center;
 }
 
 .TitleRight p {
+  text-align: center;
+}
 
+.row {
+  margin: 25px auto;
 }
