@@ -20,3 +20,10 @@ header .container {
 nav {
   display: inline;
 }
+#header_img{
+	 filter: blur(5px);
+}
+#header{
+	width: 100%;
+	text-align: center;
+}
