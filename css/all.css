@@ -20,3 +20,19 @@ header .container {
 nav {
   display: inline;
 }
+#header_img{
+ 
+  width: 50%;
+  height: 50%;
+  text-align: center;
+  filter: invert(100%);
+}
+#header{
+  background: url(../images/Portal2_conceptart_001.jpg);
+	text-align: center;
+}
+#gif{
+  width: 15%;
+  height: 25%;
+  filter: blur(2px);
+}
