@@ -1,6 +1,8 @@
 header {
   display: block;
-  /* margin: 10px; */
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
 }
 
 .navbar-brand img {
@@ -11,17 +13,12 @@ header {
 header .container {
   display: block;
 }
-/* header h1 {
-  margin-left: 10px;
-  margin-right: auto;
-  display: inline;
-} */
 
 nav {
   display: inline;
 }
 #header_img{
- 
+
   width: 50%;
   height: 50%;
   text-align: center;
@@ -101,7 +98,7 @@ border: solid blue 5px;
 .user{
   margin-top: 25px;
 }
-.user h3 a{
+.user h3 a:hover{
 color: blue;
 }
 .orange_boi{
