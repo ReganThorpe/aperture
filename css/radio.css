@@ -1,4 +1,4 @@
-.container {
+.container1 {
     display: block;
     position: relative;
     padding-left: 35px;
@@ -6,7 +6,7 @@
     cursor: pointer;
     font-size: 22px;
 }
-.container input {
+.container1 input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -20,7 +20,7 @@
     background-color: #eee;
     border-radius: 50%;
 }
-.container input:checked ~ .checkmark {
+.container1 input:checked ~ .checkmark {
     background-color: blue;
 }
 .checkmark:after {
@@ -28,10 +28,10 @@
     position: absolute;
     display: none;
 }
-.container input:checked ~ .checkmark:after {
+.container1 input:checked ~ .checkmark:after {
     display: block;
 }
-.container .checkmark:after {
+.container1 .checkmark:after {
  	top: 9px;
 	left: 9px;
 	width: 8px;
