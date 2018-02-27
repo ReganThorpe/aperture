@@ -45,6 +45,9 @@ nav {
 .footer{
   text-align: center;
 }
+.cave{
+  width: 50%;
+}
 /*.head{
 position: fixed;
 top: 0;
