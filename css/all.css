@@ -46,7 +46,7 @@ nav {
   text-align: center;
 }
 .cave{
-  height: 300px;
+  height: 350px;
   padding-top: 30px;
   padding-bottom: 25px;
   padding-right: 50px;
@@ -58,7 +58,7 @@ nav {
   padding-right: 100px;
   padding-top: 50px;
   padding-bottom: 0px;
-  font-size: 20px;
+  font-size: 25px;
 }
 .quote-panel{
   padding-left: 100px;
@@ -112,6 +112,14 @@ color: blue;
 }
 .foot{
 padding-bottom: 10px;
+}
+.text{
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-size: 17px;
 }
 /*.head{
 position: fixed;
