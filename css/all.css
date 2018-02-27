@@ -92,6 +92,27 @@ padding-left: 75px;
 #atlas{
 border: solid blue 5px;
 }
+.bork{
+  height: 250px;
+  margin-top: 15px;
+  width: auto;
+  border: blue solid 3px;
+}
+.user{
+  margin-top: 25px;
+}
+.user h3 a{
+color: blue;
+}
+.orange_boi{
+  border: orange solid 3px;
+}
+.ad{
+  height: 250px;
+}
+.foot{
+padding-bottom: 10px;
+}
 /*.head{
 position: fixed;
 top: 0;
