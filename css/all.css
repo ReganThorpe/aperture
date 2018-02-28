@@ -26,7 +26,7 @@ nav {
 }
 #header{
   background: url(../images/Portal2_conceptart_001.jpg);
-	text-align: center;
+  text-align: center;
 }
 #gif{
   width: 15%;
@@ -40,7 +40,7 @@ nav {
  /* text-align: center;*/
 }
 .service{
-   padding: 10px;
+ padding: 10px;
 }
 .footer{
   text-align: center;
@@ -81,13 +81,13 @@ nav {
   font-size: 17px;
 }
 .atlas_panel{
-padding-top: 25px;
-padding-bottom: 25px;
-padding-left: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
 
 }
 #atlas{
-border: solid blue 5px;
+  border: solid blue 5px;
 }
 .bork{
   height: 250px;
@@ -99,10 +99,7 @@ border: solid blue 5px;
   margin-top: 25px;
 }
 .user h3 a:hover{
-color: blue;
-}
-.orange_boi{
-  border: orange solid 3px;
+  color: blue;
 }
 .ad{
   height: 250px;
@@ -111,7 +108,7 @@ color: blue;
   width:300px;
 }
 .foot{
-padding-bottom: 10px;
+  padding-bottom: 10px;
 }
 .text{
   text-align: center;
