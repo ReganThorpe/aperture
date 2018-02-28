@@ -6,19 +6,20 @@
   <link rel="icon" href="images/logo.png"/>
   <link rel="stylesheet" href="https://bootswatch.com/3/slate/bootstrap.min.css" />
   <link rel="stylesheet" href="css/all.css" />
-    myVid=document.getElementById("atlas");
-    myVid.muted=true;
-  </script>
+  myVid=document.getElementById("atlas");
+  myVid.muted=true;
+</script>
 </head>
 <body>
   <header>
-      <div  id="header">
-        <a href="index.html"><img src="images/aperture_logo.png" id="header_img"
-          alt="Aperture Labs"></a>
+    <div  id="header">
+      <a href="index.html"><img src="images/aperture_logo.png" id="header_img"
+        alt="Aperture Labs"></a>
       </div>
-    <nav class="navbar navbar-inverse">
+      <nav class="navbar navbar-inverse">
         <div class="container">
           <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.html">About Us</a></li>
             <li class="dropdown">
               <a class="dropdown-toggle" data-toggle="dropdown" href="product_list.html">Products<span class="caret"></span></a>
@@ -38,44 +39,44 @@
           <form class="navbar-form navbar-right" action="http://www.randyconnolly.com/tests/process.php" method="get">
             <div >
               <input type="text"  class="form-control" placeholder="Search">
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Submit</button>
             </div>
           </form>
         </div>
       </nav>
-  </header>
-  <div class="container">
-    <div class="row">
-      <h1>A.I.</h1>
-      <div class="col-md-12 panel">
-        <div class="col-md-6 panel words quote-panel ">
-          <p>
-            The egg-heads over here have this great idea to put a human conciseness into a robot.  Into a robot of all things!  They say we’re losing too many test subjects, escpecially to those little turret droids.  Imagine your brain in one of them, just sitting there waiting to shoot things.  I'd be bored out of my mind!  This idea’s off the table. <br>
-            *Edit*<br>
-            My accountant just informed me that we could make loads of money on this.  If people want to buy it, I’m all in.
-          </p>
-          <br><a href="http://store.steampowered.com/app/620/Portal_2/"
+    </header>
+    <div class="container">
+      <div class="row">
+        <h1>A.I.</h1>
+        <div class="col-md-12 panel">
+          <div class="col-md-6 panel words quote-panel ">
+            <p>
+              The egg-heads over here have this great idea to put a human conciseness into a robot.  Into a robot of all things!  They say we’re losing too many test subjects, escpecially to those little turret droids.  Imagine your brain in one of them, just sitting there waiting to shoot things.  I'd be bored out of my mind!  This idea’s off the table. <br>
+              *Edit*<br>
+              My accountant just informed me that we could make loads of money on this.  If people want to buy it, I’m all in.
+            </p>
+            <br><a href="http://store.steampowered.com/app/620/Portal_2/"
             class="btn btn-warning" role="button">Buy Now</a>
+          </div>
+
+          <div class="col-md-6 panel">
+            <iframe width="420" height="315" class="video"
+            src="https://www.youtube.com/embed/AZMSAzZ76EU?controls=1" frameborder="0">
+          </iframe>
         </div>
 
-        <div class="col-md-6 panel">
-          <iframe width="420" height="315" class="video"
-          src="https://www.youtube.com/embed/AZMSAzZ76EU?controls=1" frameborder="0">
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-3">
+        </div>
+        <div class="col-md-6 panel atlas_panel">
+          <h3>Atlas Model Schematic</h3>
+          <iframe width="420" height="315"
+          src="https://www.youtube.com/embed/7e9KhJPyEhM?autoplay=1&loop=1&playlist=7e9KhJPyEhM" id="atlas" frameborder="0">
         </iframe>
       </div>
-
-    </div>
-    <div class="col-md-12">
-      <div class="col-md-3">
-      </div>
-      <div class="col-md-6 panel atlas_panel">
-        <h3>Atlas Model Schematic</h3>
-        <iframe width="420" height="315"
-        src="https://www.youtube.com/embed/7e9KhJPyEhM?autoplay=1&loop=1&playlist=7e9KhJPyEhM" id="atlas" frameborder="0">
-      </iframe>
     </div>
   </div>
-</div>
 </div>
 <footer>
   <div class="container-fluid panel panel-footer">
@@ -92,7 +93,7 @@
     <div class="row">
       <div class="col-md-12 panel panel-panel">
         <div class="col-md-4 footer2 panel">
-          <h4>Customer Service</h4>
+          <h4><span class=" glyphicon glyphicon-user"></span> Customer Service</h4>
           <ul class="service" style="list-style: none;">
             <li class="service"><a href="#">Do We Need This?</a></li>
             <li class="service"><a href="#">What Are They Complaining About?</a></li>
@@ -101,14 +102,14 @@
           </ul>
         </div>
         <div class="col-md-4 footer2 panel">
-          <h4>Everyone Cetified Us</h4><br>
+          <h4><span class="glyphicon glyphicon-eye-open"></span> Everyone Cetified Us</h4><br>
           <img style="height: 150px;" src="images/BBB.png" alt="BBB">
           <img style="height: 150px;" src="images/USA.png" alt="USA"><br>
           <h5>We have so much Crediblity, it's unreal!</h5>
 
         </div>
         <div class="col-md-4 footer2 panel">
-          <h4>Contact Us</h4><br>
+          <h4><span class="glyphicon glyphicon-earphone"></span> Contact Us</h4><br>
           <input type="text" name="name" placeholder="Enter name..." class="form-control form-group">
           <input type="email" name="email" placeholder="Enter email..." class="form-control form-group">
           <textarea name="messege" placeholder="Enter messege..." class="form-control form-group"></textarea>
@@ -119,5 +120,5 @@
     </div>
   </div>
 </footer>
-  </body>
-  </html>
+</body>
+</html>
