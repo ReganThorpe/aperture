@@ -1,27 +1,7 @@
-.TitleLeft {
-
-}
-
-.TitleLeft h2 {
-  text-align: center;
-}
-
-.TitleLeft p {
-  text-align: center;
-}
-
-
-.TitleRight {
-
-}
-
-.TitleRight h2 {
-  text-align: center;
-}
-
-.TitleRight p {
-  text-align: center;
-}
+ .indexStuff {
+   text-align: center;
+   margin-top: 125px;
+ }
 
 .row {
   margin: 25px auto;

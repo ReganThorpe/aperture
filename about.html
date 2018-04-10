@@ -1,66 +1,145 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>About the Site</title>
+<head>
+  <meta charset="utf-8">
+  <title>Aperture Labs</title>
+  <!-- <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" /> -->
+  <link rel="icon" href="images/logo.png"/>
   <link rel="stylesheet" href="https://bootswatch.com/3/slate/bootstrap.min.css" />
   <link rel="stylesheet" href="css/all.css" />
-  <link rel="stylesheet" href="css/about.css" />
-  </head>
-  <body>
-    <header>
-      <div>
-        <div  id="header">
-          <img src="images/aperture logo.png" id="header_img">
-        </div>
+  <link rel="stylesheet" href="css/index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <div  id="header">
+      <a href="index.html"><img src="images/aperture_logo.png" id="header_img"
+        alt="Aperture Labs"></a>
       </div>
       <nav class="navbar navbar-inverse">
         <div class="container">
           <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
             <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="community.html">Community</a></li>
-            <li><a href="history.html">Our History</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="team.html">The Team</a></li>
-            <li><a href="videos.html">Videos</a></li>
-            <li><a href="something.html">Quotes</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="product_list.html">Products<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="product_list.html">Product List</a></li>
+                <li class="divider"></li>
+                <li><a href="ai.html">A.I.</a></li>
+                <li><a href="panels.html">Panels</a></li>
+                <li><a href="portalGun.html">Portal Gun</a></li>
+                <li><a href="turret.html">Turret</a></li>
+              </ul>
+            </li>
+            <li><a href="quotes.html">Quotes</a></li>
             <li><a href="vote.html">Vote</a></li>
             <li><a href="about.html">About the Site</a></li>
           </ul>
-          <form class="navbar-form navbar-right" action="http://www.randyconnolly.com/tests/process.php" method="get">
+          <form class="navbar-form navbar-right">
             <div >
-              <input type="text"  class="form-control"placeholder="Search">
-
-              <button type="submit" class="btn btn-primary">Submit</button>
+              <input type="text"  class="form-control" placeholder="Search">
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Submit</button>
             </div>
           </form>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
     <div class="container">
-    <h1 class="title">About Team 14</h1>
-    <p>
-      This site is based on the slate bootstrap theme from bootswatch. We
-      used classes from bootstrap for most of our styling, as well as a
-      small amount of our own css for some parts of the site. We will need to
-      add some Javascript (ie killMe.js) before we finish the site. The company
-      we used as a basis for our website is Aperture Labs, from various Valve
-      projects.
-    </p>
-    <h2>The Developers</h2>
-    <p>
-      Michael Portis is a something or other
-    </p>
-    <br>
-    <p>
-      <a href="https://github.com/reganthorpe">Regan Thorpe</a> is a Junior CS
-      student and the Assistant Project Manager
-      for the <a href="https://wmich.edu/sunseeker">Sunseeker Solar Car Project
-      </a>. He is currently employed as a grocery store cashier, where he thinks
-      about how to better implement Amazon Go. On the weekends, he volunteers as
-      a live sound engineer, using his problem-soliving abilities to the benefit
-      his community.
-    </p>
-  </div>
+      <h1 class="title">About Team 14</h1>
+      <h3>
+        This site is based on the slate bootstrap theme from bootswatch. We
+        used classes from bootstrap for most of our styling, as well as a
+        small amount of our own css for some parts of the site. The company
+        we used as a basis for our website is Aperture Labs, from various Valve
+        projects.
+      </h3>
+      <h2>The Developers</h2>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 panel">
+          <div class="col-md-8 panel center user">
+            <h3>
+              Michael Portis is a Sophomore CS Major at WMU.  He greatly enjoys
+              virtual reality and would, potentially, like to use his major to
+              help develop software for VR. This summer (when there will finally
+              be some free time) he would like to learn more about game design.
+              Along with this, he will be interning at Bosch LLC for the
+              second year.
+            </h3>
+          </div>
+          <div class="col-md-4 panel center">
+            <img src="images/bork.jpg" class="bork" alt="bork.jpg">
+          </div>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="col-md-12 panel">
+          <div class="col-md-8 panel center user">
+            <h3>
+              <a href="https://github.com/reganthorpe">Regan Thorpe</a> is a Junior CS
+              student and the Assistant Project Manager
+              for the <a href="https://wmich.edu/sunseeker/">Sunseeker Solar Car Project</a>
+              . He is currently employed as a grocery store cashier, where he thinks
+              about how to better implement Amazon Go. On the weekends, he volunteers as
+              a live sound engineer, using his problem-soliving abilities to the benefit
+              his community.
+            </h3>
+          </div>
+          <div class="col-md-4 panel center">
+            <a href="https://www.xkcd.com/958/" target="blank">
+              <img src="images/invisible_meat.png" class="bork" alt="a joke.png">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container-fluid panel panel-footer">
+        <div class="row address">
+          <div class="col-md-12">
+            <div class="col-md-6 foot">
+              <h3>Address: Somewhere In A Salt Mine</h3>
+            </div>
+            <div class="col-md-6 foot">
+              <h3>Phone: 269-GET-AWAY(438-2929)</h3>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 panel panel-panel">
+            <div class="col-md-4 footer2 panel">
+              <h4><span class=" glyphicon glyphicon-user"></span> Customer Service</h4>
+              <ul class="service" style="list-style: none;">
+                <li class="service"><a href="#">Do We Need This?</a></li>
+                <li class="service"><a href="#">What Are They Complaining About?</a></li>
+                <li class="service"><a href="#">Shipping</a></li>
+                <li class="service"><a href="#">They'll Get What They Get</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4 footer2 panel">
+              <h4><span class="glyphicon glyphicon-eye-open"></span> Everyone Cetified Us</h4><br>
+              <img style="height: 150px;" src="images/BBB.png" alt="BBB">
+              <img style="height: 150px;" src="images/USA.png" alt="USA"><br>
+              <h5>We have so much Crediblity, it's unreal!</h5>
+
+            </div>
+            <div class="col-md-4 footer2 panel">
+              <h4><span class="glyphicon glyphicon-earphone"></span> Contact Us</h4><br>
+              <input type="text" name="name" placeholder="Enter name..." class="form-control form-group">
+              <input type="email" name="email" placeholder="Enter email..." class="form-control form-group">
+              <textarea name="messege" placeholder="Enter messege..." class="form-control form-group"></textarea>
+              <button type="submit" class="btn btn-warning">Submit</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
-</html>
+  </html>

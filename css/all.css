@@ -1,6 +1,8 @@
 header {
   display: block;
-  /* margin: 10px; */
+  /* position: fixed; */
+  top: 0;
+  width: 100%;
 }
 
 .navbar-brand img {
@@ -11,17 +13,12 @@ header {
 header .container {
   display: block;
 }
-/* header h1 {
-  margin-left: 10px;
-  margin-right: auto;
-  display: inline;
-} */
 
 nav {
   display: inline;
 }
 #header_img{
- 
+
   width: 50%;
   height: 50%;
   text-align: center;
@@ -29,10 +26,99 @@ nav {
 }
 #header{
   background: url(../images/Portal2_conceptart_001.jpg);
-	text-align: center;
+  text-align: center;
 }
 #gif{
   width: 15%;
   height: 25%;
   filter: blur(2px);
 }
+.center{
+  text-align: center;
+}
+.address{
+ /* text-align: center;*/
+}
+.service{
+ padding: 10px;
+}
+.footer{
+  text-align: center;
+}
+.cave{
+  height: 350px;
+  padding-top: 30px;
+  padding-bottom: 25px;
+  padding-right: 50px;
+  padding-left:50px;
+}
+.quote{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  font-size: 25px;
+}
+.quote-panel{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.video{
+  margin-top: 25px;
+  border: solid orange 5px;
+}
+.video_blue{
+  margin-top: 25px;
+  border: solid blue 5px;
+}
+.words{
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  font-size: 17px;
+}
+.atlas_panel{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 75px;
+
+}
+#atlas{
+  border: solid blue 5px;
+}
+.bork{
+  height: 250px;
+  margin-top: 15px;
+  width: auto;
+  border: blue solid 3px;
+}
+.user{
+  margin-top: 25px;
+}
+.user h3 a:hover{
+  color: blue;
+}
+.ad{
+  height: 250px;
+}
+.ad2{
+  width:300px;
+}
+.foot{
+  padding-bottom: 10px;
+}
+.text{
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 100px;
+  padding-top: 40px;
+  padding-bottom: 0px;
+  font-size: 17px;
+}
+/*.head{
+position: fixed;
+top: 0;
+}*/

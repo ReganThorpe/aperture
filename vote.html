@@ -2,68 +2,144 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Voting</title>
+  <title>Aperture Labs</title>
+  <!-- <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon" /> -->
+  <link rel="icon" href="images/logo.png"/>
   <link rel="stylesheet" href="https://bootswatch.com/3/slate/bootstrap.min.css" />
   <link rel="stylesheet" href="css/all.css" />
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/radio.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 </head>
+
 <body>
   <header>
-    <div>
-      <div  id="header">
-        <img src="images/aperture logo.png" id="header_img">
+    <div  id="header">
+      <a href="index.html"><img src="images/aperture_logo.png" id="header_img"
+        alt="Aperture Labs"></a>
       </div>
-    </div>
-    <nav class="navbar navbar-inverse">
-      <div class="container">
-        <ul class="nav navbar-nav">
-          <li><a href="aboutus.html">About Us</a></li>
-          <li><a href="community.html">Community</a></li>
-          <li><a href="history.html">Our History</a></li>
-          <li><a href="products.html">Products</a></li>
-          <li><a href="team.html">The Team</a></li>
-          <li><a href="videos.html">Videos</a></li>
-          <li><a href="something.html">Quotes</a></li>
-          <li><a href="vote.html">Vote</a></li>
-          <li><a href="about.html">About the Site</a></li>
-        </ul>
-        <form class="navbar-form navbar-right" action="http://www.randyconnolly.com/tests/process.php" method="get">
-          <div >
-            <input type="text"  class="form-control"placeholder="Search">
-
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
+      <nav class="navbar navbar-inverse">
+        <div class="container">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutus.html">About Us</a></li>
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="product_list.html">Products<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="product_list.html">Product List</a></li>
+                <li class="divider"></li>
+                <li><a href="ai.html">A.I.</a></li>
+                <li><a href="panels.html">Panels</a></li>
+                <li><a href="portalGun.html">Portal Gun</a></li>
+                <li><a href="turret.html">Turret</a></li>
+              </ul>
+            </li>
+            <li><a href="quotes.html">Quotes</a></li>
+            <li><a href="vote.html">Vote</a></li>
+            <li><a href="about.html">About the Site</a></li>
+          </ul>
+          <form class="navbar-form navbar-right">
+            <div >
+              <input type="text"  class="form-control" placeholder="Search">
+              <button type="submit" class="btn btn-primary"><span class="glyphicon glyphicon-search"></span> Submit</button>
+            </div>
+          </form>
+        </div>
       </nav>
-    </div>
-  </header>
-  <div class="container">
-  <h1>Vote here!</h1>
-  <form action="vote_results.php" method="post">
-    <!-- <form action="http://randyconnolly.com/tests/process.php" method="post"> -->
+    </header>
+    <div class="container">
+      <div class="row panel">
+        <div class="col-md-12">
+          <div class="col-md-4 panel">
+            <h1>Vote here!</h1>
+            <form action="vote_results.php" method="post">
+              <!-- <form action="http://randyconnolly.com/tests/process.php" method="post"> -->
+                <label class="container1">0 pts.
+                  <input type="radio" name="radio" value="0">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container1">1 pts.
+                  <input type="radio" name="radio" value="1">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container1">2 pts.
+                  <input type="radio" name="radio" value="2">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container1">3 pts.
+                  <input type="radio" checked="checked" name="radio" value="3">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container1">4 pts.
+                  <input type="radio" name="radio" value="4">
+                  <span class="checkmark"></span>
+                </label>
+                <label class="container1">5 pts.
+                  <input type="radio" name="radio" value="5">
+                  <span class="checkmark"></span>
+                </label>
 
-    <div class="radio">
-      <label><input type="radio" name="vote" value="0" checked>0 pts.</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="vote" value="1">1 pts.</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="vote" value="2">2 pts.</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="vote" value="3">3 pts.</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="vote" value="4">4 pts.</label>
-    </div>
-    <div class="radio">
-      <label><input type="radio" name="vote" value="5">5 pts.</label>
-    </div>
-    <input type="hidden" name="team_id" value="14">
-    <!-- <input type="submit" value="Vote"> -->
-    <button type="submit" value="Vote" class="btn btn-default">Vote</button>
-  </form>
-  </div>
-</body>
-</html>
-<!-- page by Regan Thorpe -->
+                <input type="hidden" name="team_id" value="14">
+                <!-- <input type="submit" value="Vote"> -->
+                <button type="submit" value="Vote" class="btn btn-warning">Vote</button>
+              </form>
+              <br>
+            </div>
+            <div class="col-md-4 panel"><br>
+              <img src="images/asposter_allergens.png" class="ad2" alt="allergens"><br><br><br>
+              <img src="images/asposter_implosion.png" class="ad2" alt="implosion">
+            </div>
+            <div class="col-md-4 panel"><br>
+              <img src="images/asposter_dontlisten.png" class="ad2" alt="don't listen">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <br><br><br>
+      <footer>
+        <div class="container-fluid panel panel-footer">
+          <div class="row address">
+            <div class="col-md-12">
+              <div class="col-md-6 foot">
+                <h3>Address: Somewhere In A Salt Mine</h3>
+              </div>
+              <div class="col-md-6 foot">
+                <h3>Phone: 269-GET-AWAY(438-2929)</h3>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 panel panel-panel">
+              <div class="col-md-4 footer2 panel">
+                <h4><span class=" glyphicon glyphicon-user"></span> Customer Service</h4>
+                <ul class="service" style="list-style: none;">
+                  <li class="service"><a href="#">Do We Need This?</a></li>
+                  <li class="service"><a href="#">What Are They Complaining About?</a></li>
+                  <li class="service"><a href="#">Shipping</a></li>
+                  <li class="service"><a href="#">They'll Get What They Get</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 footer2 panel">
+                <h4><span class="glyphicon glyphicon-eye-open"></span> Everyone Cetified Us</h4><br>
+                <img style="height: 150px;" src="images/BBB.png" alt="BBB">
+                <img style="height: 150px;" src="images/USA.png" alt="USA"><br>
+                <h5>We have so much Crediblity, it's unreal!</h5>
+
+              </div>
+              <div class="col-md-4 footer2 panel">
+                <h4><span class="glyphicon glyphicon-earphone"></span> Contact Us</h4><br>
+                <input type="text" name="name" placeholder="Enter name..." class="form-control form-group">
+                <input type="email" name="email" placeholder="Enter email..." class="form-control form-group">
+                <textarea name="messege" placeholder="Enter messege..." class="form-control form-group"></textarea>
+                <button type="submit" class="btn btn-warning">Submit</button>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </body>
+    </html>
